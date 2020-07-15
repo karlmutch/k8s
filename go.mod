@@ -1,4 +1,4 @@
-module github.com/karlmutch/k8s
+module github.com/ericchiang/k8s
 
 require (
 	github.com/golang/protobuf v1.2.0
