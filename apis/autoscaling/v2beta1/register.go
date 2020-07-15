@@ -1,6 +1,6 @@
 package v2beta1
 
-import "github.com/karlmutch.k8s"
+import "github.com/karlmutch/k8s"
 
 func init() {
 	k8s.Register("autoscaling", "v2beta1", "horizontalpodautoscalers", true, &HorizontalPodAutoscaler{})
